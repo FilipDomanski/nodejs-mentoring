@@ -1,6 +1,5 @@
 import name from './config/json'
-import User from './models/User'
-import Product from './models/Product'
+import { User, Product } from './models'
 import DirWatcher from "./Dirwatcher";
 import Importer from "./Importer";
 import EventEmitter from 'events'
