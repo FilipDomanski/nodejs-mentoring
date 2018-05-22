@@ -23,6 +23,10 @@
     ]
   },
   "dependencies": {
-    "csvtojson": "^1.1.9"
+    "bluebird": "^3.5.1",
+    "commander": "^2.15.1",
+    "csvtojson": "^1.1.9",
+    "path": "^0.12.7",
+    "through2": "^2.0.3"
   }
 }
