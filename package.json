@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js --exec babel-node",
+    "start": "nodemon expressApp/index.js --exec babel-node",
     "test": ""
   },
   "author": "Filip Domański <filippdomanski@gmail.com>",
@@ -24,8 +24,11 @@
   },
   "dependencies": {
     "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
     "commander": "^2.15.1",
+    "cookie-parser": "^1.4.3",
     "csvtojson": "^1.1.9",
+    "express": "^4.16.3",
     "path": "^0.12.7",
     "through2": "^2.0.3"
   }
