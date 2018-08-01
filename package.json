@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon expressApp/index.js --exec babel-node",
-    "test": ""
+    "test": "",
+    "mongo:start": "babel-node ./mongodb/index.js",
+    "mongo:migrate": "babel-node ./mongodb/migration.js"
   },
   "author": "Filip Domański <filippdomanski@gmail.com>",
   "license": "ISC",
@@ -30,6 +32,7 @@
     "csvtojson": "^1.1.9",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.6",
     "passport": "^0.4.0",
     "path": "^0.12.7",
     "pg": "^7.4.3",
